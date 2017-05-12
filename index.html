@@ -1,10 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="UTF-8">
 	<title>Greg's List</title>
 	<meta name-"description" content="Greg's List: All your needs of Craiglist done better.">
+	<link rel="stylesheet" type="text/css" href="node_modules/normalize.css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
 <body>
-
+	<header>
+		<nav class="nav-bar">
+			<h1 class="nav-header">Greg's List</h1>
+			<ul class="nav links">
+				<li class="nav link"><a href="https://www.w3schools.com/">Post</a></li>
+				<li class="nav link"><a href="https://www.google.com//">Account</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="search-container">
+			<label class="search-header">Search Jobs</label></br>
+			<form class="search-bar-container">
+				<input type="search" placeholder="Search software jobs" class="search-bar">
+				<img class="magnifying-icon" src="images/magnifying-glass.png">
+			</form>
+			<nav class="pagination-container">
+				<ul class="pagination-options">
+					<li class="pagination-option">< prev</li>
+					<li class="pagination-option">1 to 100 of 179</li>
+					<li class="pagination-option">next ></li>
+				</ul>
+			</nav>
+			<section class="results">
+				<h5 class="result-info">June 22 <a href="">Technical Project Manager</a> Midtown East</h5>
+				<h5 class="result-info">June 21 <a href="">Frontend Developer</a> SoHo</h5>
+				<h5 class="result-info">June 20 <a href="">Senior Python Developer / Cofounder</a> Flatiron</h5>
+			</section>
+		</section>
+	</main>
 </body>
 </html>
