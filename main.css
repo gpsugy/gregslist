@@ -1,9 +1,10 @@
 * {
 	font-family: "Roboto", sans-serif;
+	box-sizing: border-box;
 }
 
 .nav-bar {
-	background-color: yellow;
+	background-color: blue;
 	height: 40px;
 	width: 100%;
 	position: fixed;
@@ -40,6 +41,8 @@ main {
 	font-size: 0;
 }
 
+/*you don't need to always make a combined class to apply the same thing to two different objects.
+you can select .search-header .search-bar*/
 .search-header {
 	font-size: 15px;
 }
